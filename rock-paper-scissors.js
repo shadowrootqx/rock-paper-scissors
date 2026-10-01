@@ -22,6 +22,8 @@ function getComputerChoice() {
 
 function getHumanChoice() {
     let humanChoice = prompt("Your choice:");
+    // If user hits cancel or does not type anything
+    if (!humanChoice) return "";
     return humanChoice;
 }
 
