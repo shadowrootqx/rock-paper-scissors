@@ -59,7 +59,9 @@ function playRound(humanChoice, computerChoice) {
         computerScore++;
     }
 
-    else console.log("Draw.");
+    else if (humanChoice === computerChoice) {
+        console.log("Draw.");
+    }
 }
 
 // Main funnction. Calls playRound 5 times and shows the winner
