@@ -56,7 +56,7 @@ function playRound(humanChoice, computerChoice) {
     }
     else if ((humanChoice === "scissors") && (computerChoice === "rock")) {
         console.log("You lose this round! Rock beats Scissors.");
-        humanScore++;
+        computerScore++;
     }
 
     else console.log("Draw.");
